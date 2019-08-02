@@ -28,7 +28,7 @@ Pushes to the master branch on GitHub would automatically be integrated to the l
 
 - For styling, I used Emotion's CSS-in-JS approach. All the style properties used by <Main/> and its children are in the corresponding container's directory. I used a light color palette with a light blue and a striking orange.
 
-— The code is written in line with the linting rules described by Airbnb.
+- The code is written in line with the linting rules described by Airbnb.
 
 - If given more time and developing this app for production, I would:
   — seperate the logic/data of <Input> and <Dropdown> into two different containers; render those containers in <Main>; use <Main> as a wrapper for this context; and finally create a context to share logic between the containers,
