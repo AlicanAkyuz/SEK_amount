@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { FullWidthContainer, PrimaryText, SecondaryText } from '../styles';
+import { FullWidthContainer, PrimaryText, SecondaryText } from '../containers/Main/styles';
 
 const Interface = ({ primaryMessage, secondaryMessage }) => (
   <FullWidthContainer>

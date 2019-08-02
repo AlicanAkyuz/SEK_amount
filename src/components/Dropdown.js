@@ -2,8 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import {
-  FullWidthContainer, DropdownBox, BoldTitle, SecondaryText,
-} from '../styles';
+  FullWidthContainer,
+  DropdownBox,
+  BoldTitle,
+  SecondaryText,
+} from '../containers/Main/styles';
 
 import sliceNumber from '../utils/sliceNumber';
 import dotifyNumber from '../utils/dotifyNumber';

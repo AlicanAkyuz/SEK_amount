@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import styled from '@emotion/styled';
 
-import { getCountriesByName, getSEKRates } from '../utils/apis';
+import { MainContainer } from './styles';
+import { getCountriesByName, getSEKRates } from '../../utils/apis';
 
-import Interface from '../components/Interface';
-import Input from '../components/Input';
-import Dropdown from '../components/Dropdown';
+import Interface from '../../components/Interface';
+import Input from '../../components/Input';
+import Dropdown from '../../components/Dropdown';
 
 function Main() {
   const [country, setCountry] = useState(''); // country typed by the user
@@ -115,12 +115,5 @@ function Main() {
     </MainContainer>
   );
 }
-
-const MainContainer = styled.div`
-  width: 100%;
-  height: auto;
-  min-height: 100vh;
-  background-color: #ffffff;
-`;
 
 export default Main;

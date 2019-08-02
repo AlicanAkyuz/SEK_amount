@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { ListItem, PrimaryText, ListText } from '../styles';
+import { ListItem, PrimaryText, ListText } from '../containers/Main/styles';
 
 const DropdownList = ({
   name, capital, population, currencyCode, sekValue,

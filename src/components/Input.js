@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { FullWidthContainer, PrimaryText, InputField } from '../styles';
+import { FullWidthContainer, PrimaryText, InputField } from '../containers/Main/styles';
 
 const Input = ({
   title, type, value, placeholder, onchange,

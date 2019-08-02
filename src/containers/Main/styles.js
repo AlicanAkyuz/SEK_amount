@@ -1,5 +1,12 @@
 import styled from '@emotion/styled';
 
+export const MainContainer = styled.div`
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: #ffffff;
+`;
+
 export const FullWidthContainer = styled.div`
   display: flex;
   flex-direction: column;
