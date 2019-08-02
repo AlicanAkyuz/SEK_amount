@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`correctly renders its required props as defined by prop types 1`] = `
+<div
+  className="css-1a821q7"
+>
+  <ul
+    className="css-40fw1n"
+  >
+    <h1
+      className="css-19ozl9x"
+    >
+      1 Match!
+    </h1>
+    <div
+      className="css-bp3e54"
+    >
+      <h3
+        className="css-qwi5oq"
+      >
+        Sweden
+      </h3>
+      <h3
+        className="css-f71r11"
+      >
+        Capital City: Stockholm
+      </h3>
+      <h3
+        className="css-f71r11"
+      >
+        Population: 100
+      </h3>
+      <h3
+        className="css-f71r11"
+      >
+        Currency: SEK
+      </h3>
+      <h3
+        className="css-f71r11"
+      >
+        Rates for SEK not found
+      </h3>
+    </div>
+  </ul>
+</div>
+`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`correctly renders 5 props 1`] = `
+<div
+  className="css-1a821q7"
+>
+  <h3
+    className="css-qwi5oq"
+  >
+    Sek Amount
+  </h3>
+  <input
+    className="css-dbs8c2"
+    onChange={[Function]}
+    placeholder="Sek Amount"
+    type="text"
+    value="SEK"
+  />
+</div>
+`;
+
+exports[`handles both string and number value types 1`] = `
+<div
+  className="css-1a821q7"
+>
+  <h3
+    className="css-qwi5oq"
+  >
+    Sek Amount
+  </h3>
+  <input
+    className="css-dbs8c2"
+    onChange={[Function]}
+    placeholder="Sek Amount"
+    type="text"
+    value={15}
+  />
+</div>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When received a primary and a secondary text prop, it correctly renders a h3 tag for the primary and a h5 tag for the secondary text 1`] = `
+<div
+  className="css-1a821q7"
+>
+  <h3
+    className="css-qwi5oq"
+  >
+    Loading...
+  </h3>
+  <h5
+    className="css-tgshpt"
+  >
+    The app is loading
+  </h5>
+</div>
+`;
