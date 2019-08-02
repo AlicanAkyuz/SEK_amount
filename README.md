@@ -31,7 +31,7 @@ Pushes to the master branch on GitHub would automatically be integrated to the l
 - The code is written in line with the linting rules described by Airbnb.
 
 - If given more time and developing this app for production, I would:
-  — seperate the logic/data of <Input> and <Dropdown> into two different containers; render those containers in <Main>; use <Main> as a wrapper for this context; and finally create a context to share logic between the containers,
+  — seperate the logic/data of <Input> and <Dropdown> into two different containers, render those containers in <Main>, use <Main> as a wrapper for this context, and finally create a context to share logic between the containers,
   — write more comprehensive tests, particularly for the asynchronous tasks in <Main/>
   — use http://fixer.io for accessing exchange rates for more currencies
   — work with a UX designer for a better look
